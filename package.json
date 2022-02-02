@@ -1,0 +1,28 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "SushiJ <74211783+SushiJ@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel-node",
+    "dev": "nodemon --exec babel-node src/app.js"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "dayjs": "^1.10.7",
+    "dotenv": "^15.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.9",
+    "pino": "^7.6.5",
+    "pino-pretty": "^7.5.1",
+    "nanoid": "3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
